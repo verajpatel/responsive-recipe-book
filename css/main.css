@@ -8,9 +8,10 @@ p {
   font-family: miller-text, serif;
   font-weight: normal;
   font-style: normal;
+  text-align: justify;
 }
 
-.recipe-name, .recipe-info, .instructions, .servings, .secondary {
+.recipe-name, .recipe-info, .instructions, .servings, .secondary, h2, h3, .subheader-light {
   font-family: nimbus-sans, sans-serif;
   font-weight: normal;
   text-align: center;
@@ -31,10 +32,6 @@ p {
 
 .contents, .button, .footer {
   text-align: center;
-}
-
-.text-info {
-  text-align: justify;
 }
 
 .recipe-1, .recipe-2, .recipe-3, .recipe-4, .button {
@@ -58,6 +55,14 @@ img {
 
 .recipe-name {
   background-color: #fff;
+}
+
+.subheader-light {
+  font-weight: lighter;
+}
+
+.subheader {
+  font-weight: bolder;
 }
 
 @media only screen and (min-width: 38em) {
